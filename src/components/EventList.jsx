@@ -27,15 +27,15 @@ const EventList = ({ date }) => {
         {dayEvents.map((event, index) => (
           <li key={index}>
             {/* Event Name */}
-            <p>{event.eventName}</p>
+           <b>Event Name : </b> <p>{event.eventName}</p>
             
             {/* Event Timing */}
             <p>
-              {event.startTime} - {event.endTime}
+             <b>Time Duration : </b> {event.startTime} - {event.endTime}
             </p>
             
             {/* Event Description */}
-            <p>{event.description}</p>
+            <b>Event Details : </b><p>{event.description}</p>
           </li>
         ))}
       </ul>
