@@ -20,7 +20,7 @@ const EventList = ({ date }) => {
   return (
     <div>
       {/* Header displaying the selected date */}
-      <h3 className="font-bold">Events for {dayKey}</h3>
+      <h2 className="font-bold">Events for {dayKey}</h2>
       
       {/* Event List */}
       <ul>
